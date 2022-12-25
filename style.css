@@ -1,0 +1,23 @@
+#container{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+
+    width: 40vh;
+    height: 40vh;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.square{
+    background-color: black;
+    border: solid 1px white;
+    color: white;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
