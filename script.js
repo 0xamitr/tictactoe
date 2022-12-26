@@ -16,6 +16,9 @@ let Gameboard = (()=>{
                     else if(i == 1){
                         i--;
                     }
+                    if(empty == 1){
+                        i = 0;
+                    }
                 }
             })
         })
